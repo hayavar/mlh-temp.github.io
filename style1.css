@@ -1,0 +1,150 @@
+.image{
+	width: 75;
+	height: 75px;
+	text-decoration: none;
+	cursor: text;
+}
+#brand-year{
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 20px;
+	cursor: text;
+}
+title{
+	font-family: lato;
+}
+#menu{
+	background-color: #000055;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+#collapsibleNavbar a{
+	color: white;
+}
+#menu ul li a:hover{
+	color: orange;
+	transition: 0.3s;
+}
+
+
+#icon-bar{
+	background-color: lightgray;
+	}
+#icon-bar a{
+	text-decoration: none;
+	text-decoration-line: none;
+	color: purple;
+	font-family: sans-serif;
+	font-weight: bolder;
+
+}
+#drop{
+	background-color: #000055;
+}
+#drop a:hover{
+
+		color: #000055;
+		background-color: black;
+
+}
+#header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url("cse2.png");
+	background-size: 1400px 600px; 	
+	background-position: center;
+	width: 99%;	
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border:4px solid black;
+	margin-top: 10px;
+}
+#header p{
+	padding: auto;
+	font-weight: bolder;
+	font-family: lato;
+	color: white;
+}
+#mission{
+	background-color: #fff;
+	border: 2px solid #0062cc;
+	border-radius: 10px 10px 10px 10px;
+}
+#mission p{
+	font-size: 18px;
+	font-family: lato;
+	color: green;
+	font-weight: bold;
+}
+#mission span{
+	color: red;
+	font-size: 25px;
+}
+#mission a{
+	font-family: Courier New;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	color: #3F729B;
+
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  #f2{
+
+  	background-color:  #4e4e4e;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  
+    width: 100%;
+    overflow: hidden;
+    color: white;
+  }
+ footer #a1{
+  	color: white;
+  }
+  #img1 img{
+  	margin-left: 5px;
+  	margin-top: 5px;
+
+  }
+ #img1{
+ 	border:2px solid #000055;
+ }
+ #img1 hr{
+ 	border-color: #4e4e4e;
+ 	width: 95%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+ @media screen and (max-width: 900px){
+ 	#img1{
+ 		width: 80%;
+ 	}
+ 	#img1 img{
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		margin-top: auto;
+ 		margin-bottom: auto;
+ 	}
+ 	#img1 hr{
+ 		width: 100%;
+ 	}
+ 	#brand-year{
+		float: none;
+		margin-right: auto;
+		margin-top: auto;
+	}
+ 	#card1{
+ 		padding-left: auto;
+ 		padding-top: auto;
+ 	}
+ 	#header h1{
+ 		font-size: 30px;
+
+ 	}
+ }

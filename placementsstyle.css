@@ -1,0 +1,28 @@
+body {
+  background-image: url('1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+#brand{
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+}
+
+#gauge{
+  margin-top: 60px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
